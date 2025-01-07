@@ -1,11 +1,9 @@
-/* General Styles */
 .root {
     -fx-font-family: "Arial";
     -fx-background-color: #2b2b2b;
     -fx-text-fill: white;
 }
 
-/* Sidebar */
 .sidebar {
     -fx-background-color: #333333;
     -fx-padding: 10px;
@@ -31,7 +29,6 @@
     -fx-background-color: #888888;
 }
 
-/* Search Bar */
 .search-bar {
     -fx-background-color: #444444;
     -fx-text-fill: white;
@@ -40,13 +37,11 @@
     -fx-border-radius: 5px;
 }
 
-/* Top Bar */
 .top-bar {
     -fx-background-color: #333333;
     -fx-padding: 10px;
 }
 
-/* Scrollable Content Area */
 .scroll-pane {
     -fx-background-color: #2b2b2b;
 }
@@ -57,7 +52,6 @@
     -fx-vgap: 10px;
 }
 
-/* File Card */
 .file-card {
     -fx-background-color: #3b3b3b;
     -fx-border-color: #555555;
@@ -76,7 +70,6 @@
     -fx-text-fill: white;
 }
 
-/* Back Button */
 .back-button {
     -fx-background-color: #444444;
     -fx-text-fill: white;
@@ -90,7 +83,6 @@
     -fx-background-color: #666666;
 }
 
-/* Unfavorite Button */
 .unfavorite-button {
     -fx-background-color: #666666;
     -fx-text-fill: white;

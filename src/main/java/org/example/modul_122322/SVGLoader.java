@@ -31,7 +31,6 @@ public class SVGLoader {
         }
     }
 
-    // Helper to create a Button with an SVG icon
     public static Button createButtonWithSVG(String text, String svgPath, double iconWidth, double iconHeight) {
         Image svgImage = loadSVG(svgPath, iconWidth, iconHeight);
         if (svgImage != null) {
@@ -57,13 +56,11 @@ public class SVGLoader {
 
         @Override
         public BufferedImage createImage(int width, int height) {
-            // Create a BufferedImage with the specified dimensions
             return new BufferedImage(width, height, BufferedImage.TYPE_INT_ARGB);
         }
 
         @Override
         public void writeImage(BufferedImage bufferedImage, TranscoderOutput transcoderOutput) {
-            // Convert BufferedImage to JavaFX Image
             this.image = SwingFXUtils.toFXImage(bufferedImage, null);
         }
 
